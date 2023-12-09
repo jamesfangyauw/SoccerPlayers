@@ -19,8 +19,8 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
-        Properties properties = new Properties()
-        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+//        Properties properties = new Properties()
+//        properties.load(project.rootProject.file('local.properties').newDataInputStream())
 
         buildConfigField "String", "BASE_URL", "\"https://mancitysquad-1-q8493322.deta.app\""
         buildConfigField "String", "HOSTNAME", "\"mancitysquad-1-q8493322.deta.app\""
