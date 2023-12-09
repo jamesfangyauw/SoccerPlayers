@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection, AndroidDomInspection -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/home_list_player_fragment">
+
+    <fragment
+        android:id="@+id/home_list_player_fragment"
+        android:name="com.james.soccerplayers.home.HomeListPlayersFragment"
+        android:label="HomePage">
+        <action
+            android:id="@+id/action_homeListPlayerFragment_to_detailSoccerPlayerActivity"
+            app:destination="@id/detailSoccerPlayerActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favorite_soccer_player_fragment"
+        android:name="com.james.favorite.FavoriteSoccerPlayerFragment"
+        android:label="FavoritePage">
+        <action
+            android:id="@+id/action_favoriteListPlayerFragment_to_detailSoccerPlayerActivity"
+            app:destination="@id/detailSoccerPlayerActivity" />
+    </fragment>
+
+
+    <activity
+        android:id="@+id/detailSoccerPlayerActivity"
+        android:name="com.james.soccerplayers.detail.DetailPlayersActivity"
+        android:label="DetailSoccerPlayerActivity" />
+
+
+
+</navigation>

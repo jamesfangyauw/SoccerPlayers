@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="7dp"
+    android:layout_marginStart="7dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    card_view:cardCornerRadius="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image_item_photo_player"
+            android:layout_width="71dp"
+            android:layout_height="101dp"
+            android:scaleType="centerCrop"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_item_name_player"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/image_item_photo_player"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toEndOf="@+id/image_item_photo_player"
+            card_view:layout_constraintTop_toTopOf="@+id/image_item_photo_player" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_item_club_player"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:maxLines="1"
+            android:layout_marginTop="7dp"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_item_name_player"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_name_player"
+            card_view:layout_constraintBottom_toBottomOf="@+id/image_item_photo_player"
+            card_view:layout_constraintEnd_toEndOf="@+id/tv_item_name_player"
+            card_view:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

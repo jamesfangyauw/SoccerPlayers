@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Soccer Players</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name_players_soccer">Kevin De Bruyne</string>
+    <string name="message_wrong">Something Wrong</string>
+    <string name="detail_description">Description : </string>
+    <string name="back_button_desc">for back to main menu</string>
+    <string name="favorite_button_desc">in case you want to favorite this team</string>
+    <string name="home_page">Home</string>
+    <string name="detail_player_position">Position : </string>
+    <string name="players_goals">Total Goals : </string>
+    <string name="player_assist">Total Assist : </string>
+    <string name="players_active">Active Player : </string>
+    <string name="favorite_page">Favorite</string>
+    <string name="name_team">Club : </string>
+
+
+
+</resources>
