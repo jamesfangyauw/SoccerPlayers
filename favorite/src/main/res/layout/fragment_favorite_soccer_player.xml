@@ -15,7 +15,6 @@
 
 
     <include
-        android:id="@+id/view_empty_player"
         layout="@layout/view_empty"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"

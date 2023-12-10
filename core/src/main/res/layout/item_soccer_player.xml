@@ -10,7 +10,6 @@
     card_view:cardCornerRadius="3dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraint_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="7dp">
@@ -39,7 +38,6 @@
             card_view:layout_constraintTop_toTopOf="@+id/image_item_photo_player" />
 
         <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/tv_item_club_player"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:maxLines="1"
