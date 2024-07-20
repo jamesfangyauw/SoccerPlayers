@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
     var test11 = 11
     var feature1 =1
     var feature2= 2
+    var feature3 = 3
 
 
 
