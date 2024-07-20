@@ -10,7 +10,6 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
-
     private lateinit var activityMainBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,4 +26,5 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    var testMaster1 = 1
 }
