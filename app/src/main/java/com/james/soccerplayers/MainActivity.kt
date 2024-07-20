@@ -27,4 +27,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     var testMaster1 = 1
+    var testMaster2 = 2
+
 }
