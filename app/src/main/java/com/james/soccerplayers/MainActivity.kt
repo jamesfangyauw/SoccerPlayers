@@ -28,6 +28,9 @@ class MainActivity : AppCompatActivity() {
     var master10 = 10
     var test10 = 10
     var test11 = 11
+    var feature1 =1
+    var feature2= 2
+
 
 
     private lateinit var activityMainBinding: ActivityMainBinding
