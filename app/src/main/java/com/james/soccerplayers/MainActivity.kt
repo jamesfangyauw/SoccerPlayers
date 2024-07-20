@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding.bottomNav.setupWithNavController(navigationController)
 
         var master1 = 1
+        var master2 = 2
 
 
     }
