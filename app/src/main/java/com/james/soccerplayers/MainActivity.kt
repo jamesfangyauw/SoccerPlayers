@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
     private lateinit var activityMainBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,6 +50,7 @@ class MainActivity : AppCompatActivity() {
 
         var master1 = 1
         var master2 = 2
+        var master3 = 3
 
 
     }
