@@ -37,6 +37,8 @@ class MainActivity : AppCompatActivity() {
     var master13 = 13
     var master14 = 14
 
+    var master = 1
+
 
 
 
