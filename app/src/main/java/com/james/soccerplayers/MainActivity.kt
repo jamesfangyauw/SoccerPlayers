@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     var master12 = 12
 
 
-
+    var test3 =3
 
     private lateinit var activityMainBinding: ActivityMainBinding
 
