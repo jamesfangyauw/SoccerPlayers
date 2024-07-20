@@ -10,6 +10,11 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+
+    var test = 1
+    var test2  = 2
+    var test3 = 3
+
     private lateinit var activityMainBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,8 +30,5 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding.bottomNav.setupWithNavController(navigationController)
 
     }
-
-    var testMaster1 = 1
-    var testMaster2 = 2
 
 }
