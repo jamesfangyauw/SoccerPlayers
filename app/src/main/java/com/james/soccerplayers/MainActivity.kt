@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         var master1 = 1
         var master2 = 2
         var master3 = 3
+        var master4 = 4
 
 
     }
