@@ -12,6 +12,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     var test = 1
+    var test2  = 2
 
     private lateinit var activityMainBinding: ActivityMainBinding
 
