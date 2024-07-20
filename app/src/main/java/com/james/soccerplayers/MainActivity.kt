@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     var test = 1
     var test2  = 2
+    var test3 = 3
 
     private lateinit var activityMainBinding: ActivityMainBinding
 
