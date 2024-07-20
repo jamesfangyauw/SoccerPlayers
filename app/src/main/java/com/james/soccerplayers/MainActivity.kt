@@ -31,6 +31,9 @@ class MainActivity : AppCompatActivity() {
     var feature1 =1
     var feature2= 2
     var feature3 = 3
+    var feature4 = 4
+    var master11 = 11
+    var master12 = 12
 
 
 
