@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
     var test4 = 4
     var test5 = 5
     var master5 = 5
+    var master6 = 6
+
 
     private lateinit var activityMainBinding: ActivityMainBinding
 
